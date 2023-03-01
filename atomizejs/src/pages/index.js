@@ -5,6 +5,18 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
+/**
+ * Component for showing details of the user.
+ *
+ * @component
+ * @example
+ * const age = 21
+ * const name = 'Jitendra Nirnejak'
+ * return (
+ *   <User age={age} name={name} />
+ * )
+ */
+
 export default function Home() {
   return (
     <>
